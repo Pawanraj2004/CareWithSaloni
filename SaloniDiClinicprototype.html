@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMA Mind & Wellness Clinic | Salony Saini - Clinical Psychologist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts for Elegant Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .serif-title { font-family: 'Playfair Display', serif; }
+        /* Hide scrollbar utility for clean slot view */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-[#FAF8F5] text-stone-800 antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-[#FAF8F5]/80 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-full bg-emerald-800 flex items-center justify-center text-white font-serif text-sm">U</div>
+                <div class="flex flex-col">
+                    <span class="font-semibold tracking-wide text-stone-950 text-sm leading-tight">UMA CLINIC</span>
+                    <span class="text-[10px] text-stone-500 tracking-wider uppercase">Mind & Wellness</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-stone-600">
+                <a href="#about" class="hover:text-emerald-700 transition">About Me</a>
+                <a href="#expertise" class="hover:text-emerald-700 transition">Areas of Expertise</a>
+                <a href="#visit" class="hover:text-emerald-700 transition">Clinic Info</a>
+            </nav>
+            <a href="#contact" class="bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2.5 rounded-full text-sm font-medium transition shadow-xs">
+                Book Session
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section with Translucent Background Nature Overlay -->
+    <section class="relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden">
+        <!-- Background Image with Translucent Opacity Overlay -->
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&q=80&w=1600')] bg-cover bg-center opacity-15"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-[#FAF8F5]/10 via-[#FAF8F5]/60 to-[#FAF8F5]"></div>
+
+        <div class="relative max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-12 gap-12 items-center py-16 z-10">
+            <!-- Text Content -->
+            <div class="md:col-span-7 space-y-6">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-100/80 text-emerald-900 border border-emerald-200/50 backdrop-blur-xs">
+                    🍃 A Safe Space For Your Mind
+                </span>
+                <h1 class="serif-title text-4xl sm:text-5xl lg:text-6xl text-stone-950 tracking-tight leading-[1.15]">
+                    Your Mental Health <br><span class="italic text-emerald-800 font-normal">Matters Here</span>
+                </h1>
+                <p class="text-stone-600 text-lg max-w-lg leading-relaxed">
+                    Compassionate care. Evidence-based therapy. Lasting change. Take the structural path towards clarity under trusted, professional guidance.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#contact" class="bg-stone-950 hover:bg-stone-800 text-white px-6 py-3.5 rounded-full font-medium transition shadow-md">
+                        Book Appointment
+                    </a>
+                    <a href="#expertise" class="bg-white/80 backdrop-blur-xs border border-stone-300 hover:bg-stone-100 text-stone-800 px-6 py-3.5 rounded-full font-medium transition">
+                        Explore Services
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Professional Main Portrait Frame -->
+            <div class="md:col-span-5 flex justify-center">
+                <div class="relative w-72 h-96 sm:w-80 sm:h-[420px] rounded-3xl overflow-hidden bg-stone-200 border-4 border-white shadow-2xl rotate-1 hover:rotate-0 transition duration-500">
+                    <!-- Placeholder: Swap this image with Salony Saini's portrait asset -->
+                    <img src="salony_saini_portrait.jpg" alt="Salony Saini" class="w-full h-full object-cover object-center" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calming Quote Divider -->
+    <section class="bg-emerald-950 text-emerald-50 py-16 text-center px-6 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center opacity-5"></div>
+        <div class="relative max-w-3xl mx-auto space-y-4 z-10">
+            <span class="text-4xl text-emerald-400/60 font-serif">“</span>
+            <p class="serif-title text-xl sm:text-2xl italic font-light tracking-wide max-w-2xl mx-auto">
+                Healing starts with a conversation. Let's take the first step towards a better you.
+            </p>
+            <div class="h-px w-12 bg-emerald-400/30 mx-auto mt-6"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 max-w-4xl mx-auto text-center space-y-6">
+        <div class="space-y-2">
+            <h2 class="serif-title text-3xl sm:text-4xl text-stone-950">Salony Saini</h2>
+            <p class="text-emerald-700 font-medium tracking-wide text-xs uppercase">RCI Licensed Clinical Psychologist</p>
+        </div>
+        <p class="text-stone-600 leading-relaxed text-lg max-w-2xl mx-auto">
+            At UMA Mind & Wellness Clinic, we provide structural, empathetic, and evidence-guided strategies tailored to help individuals overcome modern psychological struggles. Emotional support shouldn't be complex—it should be a transparent path to stability.
+        </p>
+    </section>
+
+    <!-- Expertise Grid with Thematic Mental Wellness Images -->
+    <section id="expertise" class="py-24 px-6 bg-stone-100 border-y border-stone-200/60">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center space-y-3 mb-16">
+                <h2 class="serif-title text-3xl sm:text-4xl text-stone-950">How We Can Help You</h2>
+                <p class="text-stone-500 max-w-md mx-auto text-sm">Providing professional diagnostic and clinical guidance across various specialized fields.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Therapy Item 1 -->
+                <div class="bg-white rounded-2xl border border-stone-200/80 shadow-xs overflow-hidden hover:shadow-md transition duration-300">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=500" alt="Anxiety support">
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-semibold text-stone-900 text-lg">Anxiety & Stress</h3>
+                        <p class="text-stone-500 text-sm leading-relaxed">Navigate modern worries, persistent panic states, and build structural cognitive calm.</p>
+                    </div>
+                </div>
+
+                <!-- Therapy Item 2 -->
+                <div class="bg-white rounded-2xl border border-stone-200/80 shadow-xs overflow-hidden hover:shadow-md transition duration-300">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&q=80&w=500" alt="Depression support">
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-semibold text-stone-900 text-lg">Depression & Mood Management</h3>
+                        <p class="text-stone-500 text-sm leading-relaxed">Comprehensive structural support for finding motivation and processing intense grief.</p>
+                    </div>
+                </div>
+
+                <!-- Therapy Item 3 -->
+                <div class="bg-white rounded-2xl border border-stone-200/80 shadow-xs overflow-hidden hover:shadow-md transition duration-300">
+                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=500" alt="Relationship support">
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-semibold text-stone-900 text-lg">Relationship & Marriage Counselling</h3>
+                        <p class="text-stone-500 text-sm leading-relaxed">Fostering healthy interpersonal bonds, transparent alignment, and mutual empathy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bullet Matrix for remaining technical clinical parameters -->
+            <div class="mt-12 bg-white/60 rounded-2xl p-8 border border-stone-200/80 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 text-stone-700">
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>OCD & Panic Attacks</span></div>
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>Child & Adolescent Counselling</span></div>
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>Psychological Assessment</span></div>
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>Work Stress & Burnout</span></div>
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>Self-esteem & Personal Growth</span></div>
+                <div class="flex items-center space-x-3"><span class="text-emerald-700 font-bold">✓</span> <span>Maternal Mental Health Issues</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinic Details & Interactive Booking Container -->
+    <section id="visit" class="py-24 px-6 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-start relative">
+        <!-- Text details column -->
+        <div class="md:col-span-6 space-y-8">
+            <div class="space-y-4">
+                <h2 class="serif-title text-3xl sm:text-4xl text-stone-950">Plan Your Visit</h2>
+                <p class="text-stone-600 leading-relaxed">
+                    Consultations are strictly managed to protect patient privacy. Sessions should be scheduled at least <strong>24 hours in advance</strong> to guarantee systematic evaluation availability.
+                </p>
+            </div>
+            
+            <div class="space-y-6 border-t border-stone-200 pt-6">
+                <div class="flex items-start space-x-4">
+                    <div class="mt-1 p-2 rounded-lg bg-emerald-50 text-emerald-700 text-sm">📍</div>
+                    <div>
+                        <h4 class="font-semibold text-stone-900 text-sm">Location</h4>
+                        <p class="text-stone-500 text-sm mt-0.5">209, Block B Sagar Premium Tower Phase 2, Kolar Road, Bhopal, MP</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="mt-1 p-2 rounded-lg bg-emerald-50 text-emerald-700 text-sm">⏰</div>
+                    <div>
+                        <h4 class="font-semibold text-stone-900 text-sm">Consultation Hours</h4>
+                        <p class="text-stone-500 text-sm mt-0.5">3:00 PM – 9:00 PM (By Appointment Only)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Interactive Booking & Contact Card Panel -->
+        <div id="contact" class="md:col-span-6 bg-stone-900 text-stone-100 p-8 sm:p-10 rounded-3xl space-y-6 shadow-xl relative overflow-hidden">
+            <!-- Translucent texture inside panel -->
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&q=80&w=600')] bg-cover opacity-5"></div>
+            
+            <div class="relative z-10 space-y-6">
+                <div>
+                    <h3 class="serif-title text-2xl text-white">Book an Appointment</h3>
+                    <p class="text-stone-400 text-xs mt-1">Select your preferred date and time slot to query an instant setup via WhatsApp.</p>
+                </div>
+                
+                <!-- Step 1: Calendar Input -->
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-semibold text-stone-400 uppercase tracking-wider">1. Choose Date</label>
+                    <input type="date" id="appointment-date" class="w-full bg-stone-800 border border-stone-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 transition text-sm">
+                </div>
+
+                <!-- Step 2: Horizontal Scrollable Time Slots (3 PM to 9 PM) -->
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-semibold text-stone-400 uppercase tracking-wider">2. Select Time Slot (30-min intervals)</label>
+                    <div id="slots-container" class="flex gap-2 overflow-x-auto pb-3 pt-1 no-scrollbar snap-x scroll-smooth">
+                        <!-- Dynamic time blocks dynamically populated below -->
+                    </div>
+                </div>
+
+                <!-- Step 3: Trigger Booking -->
+                <button onclick="redirectToWhatsApp()" class="w-full mt-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3.5 rounded-xl transition shadow-md flex items-center justify-center space-x-2 cursor-pointer text-sm">
+                    <span>💬</span>
+                    <span>Confirm & Book via WhatsApp</span>
+                </button>
+
+                <div class="h-px bg-stone-800 my-4"></div>
+
+                <!-- Fallback Channels & Links -->
+                <div class="grid grid-cols-2 gap-3 text-xs text-stone-300">
+                    <a href="mailto:umamindwellness@gmail.com" class="p-3 bg-stone-800/80 border border-stone-700/50 rounded-xl hover:bg-stone-800 text-center truncate">✉️ Email Clinic</a>
+                    <a href="https://instagram.com/umaclinic_salony" target="_blank" class="p-3 bg-stone-800/80 border border-stone-700/50 rounded-xl hover:bg-stone-800 text-center truncate">📷 @umaclinic_salony</a>
+                </div>
+                
+                <p class="text-[11px] text-stone-500 text-center">⚠️ Notice: Booking slots must be secured 24 hours in advance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-400 bg-white">
+        © 2026 UMA Mind & Wellness Clinic. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript Module Logic -->
+    <script>
+        // Set date boundaries (Minimum 24 hours in advance rule)
+        const dateInput = document.getElementById('appointment-date');
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        const minDateString = tomorrow.toISOString().split('T')[0];
+        dateInput.min = minDateString;
+        dateInput.value = minDateString;
+
+        // Generate 30-minute incremental slots from 3:00 PM to 9:00 PM
+        const slotsContainer = document.getElementById('slots-container');
+        const slots = [
+            "03:00 PM", "03:30 PM", "04:00 PM", "04:30 PM", 
+            "05:00 PM", "05:30 PM", "06:00 PM", "06:30 PM", 
+            "07:00 PM", "07:30 PM", "08:00 PM", "08:30 PM"
+        ];
+
+        let selectedSlot = null;
+
+        slots.forEach(time => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = "flex-shrink-0 bg-stone-800 border border-stone-700 px-4 py-2.5 rounded-xl text-xs font-medium hover:border-emerald-500 transition cursor-pointer text-stone-300 snap-center";
+            btn.textContent = time;
+            
+            btn.addEventListener('click', () => {
+                // Clear state selection styles
+                document.querySelectorAll('#slots-container button').forEach(b => {
+                    b.classList.remove('bg-emerald-600', 'text-white', 'border-emerald-500');
+                    b.classList.add('bg-stone-800', 'text-stone-300', 'border-stone-700');
+                });
+                // Assign selected styling
+                btn.classList.remove('bg-stone-800', 'text-stone-300', 'border-stone-700');
+                btn.classList.add('bg-emerald-600', 'text-white', 'border-emerald-500');
+                selectedSlot = time;
+            });
+
+            slotsContainer.appendChild(btn);
+        });
+
+        // WhatsApp String Interpolation & Forwarding Logic
+        function redirectToWhatsApp() {
+            const dateValue = dateInput.value;
+            
+            if (!dateValue) {
+                alert("Please select a valid appointment date.");
+                return;
+            }
+            if (!selectedSlot) {
+                alert("Please select an available time slot.");
+                return;
+            }
+
+            const formattedDate = new Date(dateValue).toLocaleDateString('en-US', {
+                weekday: 'short', year: 'numeric', month: 'short', day: 'numeric'
+            });
+
+            const targetPhone = "918871928590"; // Clinic Primary Contact
+            const composedMsg = `Hello UMA Mind & Wellness Clinic, I would like to book a therapy session with Salony Saini.\n\n📅 Date: ${formattedDate}\n⏰ Time Slot: ${selectedSlot}\n\nPlease confirm availability for this configuration. Thank you!`;
+            
+            window.open(`https://wa.me/${targetPhone}?text=${encodeURIComponent(composedMsg)}`, '_blank');
+        }
+    </script>
+
+</body>
+</html>
